@@ -1,4 +1,31 @@
-p {
+body {
+  text-align: center;
+  background: #55acee;
+}
+body h1,
+body h2,
+body h3 {
+  color: white;
+}
+body div {
+  display: flex;
+  flex-direction: column;
+}
+body div button {
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 7px;
+  background: #55acee;
+  font-size: 25px;
+}
+body div a {
+  text-decoration: none;
+  color: white;
   font-size: 30px;
 }
 
